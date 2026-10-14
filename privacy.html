@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sera Privacy Policy</title>
+  <meta name="description" content="How Sera, SYLO's briefing tool, uses Gmail and Google Calendar data.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <div class="eyebrow"><a href="./" style="text-decoration:none">Sera</a> · Privacy Policy</div>
+  <h1>Privacy Policy</h1>
+  <p class="lede">Effective October 14, 2026</p>
+
+  <p>Sera is a private tool operated by Shari Pilon, doing business as SYLO (Shine Your Light On It). This policy explains what Google account data Sera accesses, how it is used, and how to remove access.</p>
+
+  <h2>What Sera accesses</h2>
+  <ul>
+    <li><b>Client accounts:</b> read-only access to Gmail (<code>gmail.readonly</code>) and Google Calendar (<code>calendar.readonly</code>). Sera reads recent email threads and upcoming calendar events. It cannot send, delete or change anything in these accounts.</li>
+    <li><b>SYLO's own account:</b> the same read-only access, plus permission to send email (<code>gmail.send</code>), which is used only to send the daily briefing to SYLO.</li>
+  </ul>
+
+  <h2>How the data is used</h2>
+  <p>Sera uses this data for one purpose: to prepare a daily briefing for SYLO's virtual assistant, summarizing meetings, messages that need a reply, follow-ups and deadlines, so client work is handled on time.</p>
+  <p>To write the summary, the relevant email and calendar content is sent to Anthropic's Claude API. Under Anthropic's commercial terms, this data is not used to train AI models.</p>
+
+  <h2>Storage</h2>
+  <p>Sera does not keep a copy of your email or calendar data. Each run reads fresh from Google, produces the briefing, and discards the data. The finished briefing is delivered only to SYLO's own inbox. The access tokens that let Sera connect are stored as encrypted secrets and are never shared.</p>
+
+  <h2>Sharing</h2>
+  <p>Sera does not sell, rent or share Google user data with anyone, and does not use it for advertising. Data is shared only with the service providers needed to run Sera: Google, to read the data; Anthropic, to write the summary; and GitHub, which runs the daily job.</p>
+
+  <h2>Google API Services User Data Policy</h2>
+  <p>Sera's use and transfer of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+  <h2>Removing access</h2>
+  <p>You can disconnect Sera at any time at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>, or by asking SYLO to remove your account. After that, Sera can no longer read anything from your account.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy: <a href="mailto:soloshari5@gmail.com">soloshari5@gmail.com</a>.</p>
+
+  <footer><a href="./">Sera by SYLO</a></footer>
+</main>
+</body>
+</html>
